@@ -9,8 +9,8 @@ function Header() {
             <div className='heading'>
                 <img
                     src={Travel}
-                    width="30"
-                    height="30"
+                    width="35"
+                    height="35"
                     className="d-inline-block ml-2 align-top"
                     alt="Travel logo"
                 />
@@ -22,7 +22,7 @@ function Header() {
                 </span>
                 <input className="form-control py-2 border-left-0 border" type="search" placeholder="Search places.." />
                 <span className="input-group-append">
-                    <Button className="border-left-0 border" style={{ backgroundColor: '#D5BFBF', color: '#316B83' }} type="submit">
+                    <Button className="border-left-0 border" style={{ backgroundColor: '#D5BFBF', color: 'black' }} type="submit">
                         Search
                     </Button>
                 </span>

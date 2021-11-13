@@ -11,6 +11,10 @@
 }
 .heading {
     margin-left: 20px;
+    font-family: 'Caveat', cursive;
+    color: #D5BFBF;
+    font-size: large;
+    font-weight: 800;
 }
 
 @media screen and (max-width: 930px) {
@@ -24,6 +28,7 @@
         width:100%
     }
     .heading {
-        margin-left: 0 auto;
+        margin: 0 auto;
+        font-size: medium
     }
 }
